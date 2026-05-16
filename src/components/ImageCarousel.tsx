@@ -30,11 +30,25 @@ export default function ImageCarousel({ images, title, featured, slug }: ImageCa
 
   if (!images || images.length === 0) {
     return (
-      <Link href={`/projects/${slug}`} className="block relative h-48 overflow-hidden bg-gradient-to-br from-slate-100 to-slate-200 dark:from-slate-800/50 dark:to-slate-900/50 flex flex-col items-center justify-center gap-3">
-        <div className="text-5xl opacity-20">💻</div>
-        <span className="text-xs font-semibold text-slate-500 dark:text-slate-400 tracking-wide uppercase px-4 text-center">
-          Sedang tahap pemasukan data
-        </span>
+      <Link href={`/projects/${slug}`} className="block relative h-full w-full overflow-hidden bg-white/5 dark:bg-slate-900/60 backdrop-blur-md flex flex-col items-center justify-center gap-4 transition-all duration-500 group-hover:bg-white/10 dark:group-hover:bg-slate-800/60">
+        <div className="relative">
+          <div className="absolute -inset-4 bg-blue-500/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity" />
+          <motion.div 
+            animate={{ y: [0, -5, 0] }}
+            transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
+            className="text-5xl drop-shadow-lg z-10"
+          >
+            💻
+          </motion.div>
+        </div>
+        <div className="space-y-1.5 px-6 text-center z-10">
+          <p className="text-[11px] font-bold text-slate-900 dark:text-white tracking-[0.2em] uppercase opacity-80">
+            Sedang tahap pemasukan data
+          </p>
+          <p className="text-[9px] text-slate-500 dark:text-slate-400 font-mono tracking-tight">
+            // ASSETS_V1_SYNC_IN_PROGRESS
+          </p>
+        </div>
       </Link>
     );
   }
