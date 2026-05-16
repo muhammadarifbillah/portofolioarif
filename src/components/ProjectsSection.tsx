@@ -44,6 +44,15 @@ export default function ProjectsSection() {
                     featured={project.featured} 
                     slug={project.slug} 
                   />
+                  {/* @ts-ignore */}
+                  {project.isUpdating && (
+                    <div className="absolute top-4 right-4 z-20">
+                      <div className="flex items-center gap-1.5 px-3 py-1.5 bg-amber-500/90 backdrop-blur-md text-white text-[10px] font-bold rounded-lg shadow-lg border border-white/20 uppercase tracking-wider">
+                        <span className="w-1.5 h-1.5 rounded-full bg-white animate-pulse" />
+                        UPDATING DATA
+                      </div>
+                    </div>
+                  )}
                 </div>
 
                 {/* Content */}
@@ -63,10 +72,10 @@ export default function ProjectsSection() {
                   </div>
                   <div className="flex flex-wrap items-center gap-3 mb-3">
                     <p className="text-sm text-blue-500 font-medium">{project.role}</p>
-                    {/* @ts-ignore - inProgress might be optional */}
-                    {project.inProgress && (
+                    {/* @ts-ignore */}
+                    {project.isUpdating && (
                       <span className="px-2 py-0.5 text-[10px] font-bold tracking-wider text-amber-600 bg-amber-100 dark:bg-amber-500/20 dark:text-amber-400 rounded border border-amber-200 dark:border-amber-500/30 uppercase flex items-center gap-1">
-                        🚧 Tahap Pemasukan Data
+                        🚧 Sedang Tahap Sinkronisasi Data
                       </span>
                     )}
                   </div>

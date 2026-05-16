@@ -97,6 +97,7 @@ export const projects = [
     tags: ["Laravel", "MySQL", "Blade", "Tailwind CSS", "Midtrans", "Escrow"],
     images: ["/images/campify-login.png", "/images/campify-homepage.png", "/images/campify-artikel.png", "/images/campify-produk.png", "/images/campify-detailproduk.png", "/images/campify-chatpenjual.png", "/images/campify-checkout.png", "/images/campify-detailproduksewa.png"], // Duplicated to enable slider testing
     featured: true,
+    isUpdating: true,
     github: "#",
     demo: "#",
   },
@@ -111,6 +112,7 @@ export const projects = [
     tags: ["Next.js 16", "TypeScript", "Node.js", "Tailwind CSS v4", "Local Storage"],
     images: ["/images/finaltask-homepage.png", "/images/finaltask-edit.png", "/images/finaltask-detailtask.png"],
     featured: false,
+    isUpdating: true,
     github: "#",
     demo: "#",
   },
@@ -140,6 +142,7 @@ export const projects = [
     tags: ["Software Documentation", "System Analysis", "Technical Report", "Project Specification"],
     images: [],
     featured: true,
+    isUpdating: true,
     github: "#",
     demo: "#", // Tautkan ke link PDF Pembukuan Aplikasi Campify di Google Drive
   },
@@ -154,6 +157,7 @@ export const projects = [
     tags: ["System Analysis", "UML Modeling", "Draw.io", "Use Case", "Database Design"],
     images: [],
     featured: true,
+    isUpdating: true,
     github: "#",
     demo: "#", // Tautkan ke link PDF Laporan Diagram UML kamu di Google Drive
   },
@@ -168,6 +172,7 @@ export const projects = [
     tags: ["Software Documentation", "Full-Stack Development", "System Architecture", "Technical Report"],
     images: [],
     featured: true,
+    isUpdating: true,
     github: "#",
     demo: "#", // Link ke PDF Pembukuan Aplikasi Eduvista
   },
