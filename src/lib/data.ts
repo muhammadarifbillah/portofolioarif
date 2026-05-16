@@ -89,11 +89,11 @@ export const projects = [
   {
     title: "Campify",
     slug: "campify",
-    role: "Project Manager & Frontend Developer",
+    role: "Project Manager & Full Stack Developer ",
     description:
       "Platform marketplace penyewaan dan jual-beli alat camping yang komprehensif. Dilengkapi dengan sistem escrow, fitur pengembalian, manajemen sengketa, dan dashboard admin yang lengkap.",
     content:
-      "Campify adalah platform marketplace penyewaan dan jual-beli alat camping komprehensif yang dirancang untuk mempermudah para penggiat alam. Sistem ini dikembangkan menggunakan Laravel dan dilengkapi dengan fitur-fitur canggih seperti sistem pembayaran aman melalui Midtrans, escrow service (rekber) untuk keamanan transaksi, dan manajemen sengketa khusus untuk proses pengembalian barang.\n\nFokus utama proyek ini adalah mengotomatisasi proses penyewaan dengan sistem perhitungan denda keterlambatan secara real-time dan memberikan rasa aman bagi penyewa maupun pemilik barang. Dashboard admin yang lengkap juga disediakan untuk memantau aktivitas transaksi, memvalidasi identitas pengguna (KYC), dan menyelesaikan perselisihan/dispute secara transparan.",
+      "Campify adalah platform marketplace penyewaan dan jual-beli alat camping komprehensif yang dikembangkan menggunakan Laravel. Mengemban peran ganda sebagai Project Manager sekaligus Full-Stack Developer, dengan fokus pengerjaan teknis spesifik pada arsitektur inti dan modul fungsional Role Admin (dari total 3 role sistem yang tersedia).\n\nFokus pengerjaan meliputi implementasi sistem otentikasi multi-role (RBAC), pengembangan Dashboard Admin terpusat untuk memantau aktivitas transaksi, validasi identitas pengguna (KYC), kontrol manajemen sengketa/dispute secara transparan, serta sistem otomatisasi perhitungan denda keterlambatan penyewaan secara real-time.",
     tags: ["Laravel", "MySQL", "Blade", "Tailwind CSS", "Midtrans", "Escrow"],
     images: ["/images/campify-login.png", "/images/campify-homepage.png", "/images/campify-artikel.png", "/images/campify-produk.png", "/images/campify-detailproduk.png", "/images/campify-chatpenjual.png", "/images/campify-checkout.png", "/images/campify-detailproduksewa.png"], // Duplicated to enable slider testing
     featured: true,
@@ -104,7 +104,7 @@ export const projects = [
   {
     title: "Study Flow",
     slug: "study-flow",
-    role: "Frontend Developer",
+    role: "Full Stack Developer",
     description:
       "Aplikasi manajemen tugas dan alur belajar (Study Flow) yang interaktif. Menggunakan arsitektur fullstack ringan untuk melacak progres belajar dengan performa tinggi.",
     content:
@@ -135,7 +135,7 @@ export const projects = [
   {
     title: "Dokumentasi & Laporan Pengembangan Aplikasi Campify",
     slug: "dokumentasi-aplikasi-campify",
-    role: "Software Engineer",
+    role: "Project Manager & Full Stack Developer",
     description:
       "Pembukuan teknis mengenai analisis sistem, perancangan struktur, dan dokumentasi fitur pada aplikasi Campify.",
     content:
@@ -165,7 +165,7 @@ export const projects = [
   {
     title: "Dokumentasi & Laporan Pengembangan Aplikasi Eduvista",
     slug: "dokumentasi-aplikasi-eduvista",
-    role: "Frontend Developer",
+    role: "Project Manager & Full Stack Developer",
     description:
       "Pembukuan teknis komprehensif mengenai pengembangan aplikasi Eduvista, mulai dari analisis sistem hingga implementasi kode.",
     content:
