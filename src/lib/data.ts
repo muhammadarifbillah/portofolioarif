@@ -127,6 +127,7 @@ export const projects = [
     tags: ["Figma", "UI/UX Case Study", "Design System", "Wireframing", "Prototyping", "Mobile App"],
     images: [],
     featured: true,
+    isUpdating: true,
     github: "#",
     demo: "#", // Tautkan ke link PDF Pembukuan UI/UX Eduvista di Google Drive
   },
